@@ -21,7 +21,7 @@ class Dog
   end
 
   def self.print_all
-    def @@all.each(name) do |n|
+     @@all.each(name) do |n|
       binding.pry
     end
   end
