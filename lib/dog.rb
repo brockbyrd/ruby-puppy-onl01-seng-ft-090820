@@ -8,7 +8,7 @@ class Dog
   @@all = []
 
   def initialize(name)
-    @@name = name
+    @@name << name
     @@all << self
   end
 
@@ -23,7 +23,6 @@ class Dog
   def self.print_all
      @@all.each do |n|
        puts n = @@name
-       binding.pry
     end
   end
 end
