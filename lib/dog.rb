@@ -11,11 +11,11 @@ class Dog
   end
 
   def self.all
-    binding.pry
     @@all
   end
 
   def self.clear_all
+    binding.pry
     @@all.clear
   end
 
