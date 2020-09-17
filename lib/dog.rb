@@ -8,7 +8,7 @@ class Dog
   @@all = []
 
   def initialize(name)
-    @name = name
+    @@name = name
     @@all << self
   end
 
@@ -21,6 +21,6 @@ class Dog
   end
 
   def self.print_all
-    puts @@all.each do { |n| n = @name }
+    puts @@all.each do { |n| n = @@name }
   end
 end
