@@ -23,6 +23,7 @@ class Dog
   def self.print_all
      @@all.each do |n|
       binding.pry
+      puts "PRY"
     end
   end
 end
